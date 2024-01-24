@@ -52,7 +52,6 @@ export const Display = ({data, search}) => {
     const bottom = useRef(null) 
     
     useEffect(() => {
-        console.log(tiles)
         if(search){
             setVisibleTiles(tiles)            
         }else{
